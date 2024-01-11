@@ -36,7 +36,8 @@ class LoginVC: UIViewController {
     }
     
     @objc func createAccountTapped() {
-        print("Create Account Tapped")
+       let vc = RegisterVC()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     // MARK: Helping Functions

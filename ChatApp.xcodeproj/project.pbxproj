@@ -20,6 +20,7 @@
 		1DE728092B5026DF0006FE74 /* ReusableTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE728022B5026DF0006FE74 /* ReusableTextfield.swift */; };
 		1DE7280A2B5026DF0006FE74 /* ReusableSystemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE728032B5026DF0006FE74 /* ReusableSystemImage.swift */; };
 		1DE7280B2B5026DF0006FE74 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE728042B5026DF0006FE74 /* ReusableView.swift */; };
+		1DE7280D2B5040E30006FE74 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7280C2B5040E30006FE74 /* RegisterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		1DE728022B5026DF0006FE74 /* ReusableTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableTextfield.swift; sourceTree = "<group>"; };
 		1DE728032B5026DF0006FE74 /* ReusableSystemImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableSystemImage.swift; sourceTree = "<group>"; };
 		1DE728042B5026DF0006FE74 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		1DE7280C2B5040E30006FE74 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				1DE727EC2B50224E0006FE74 /* Info.plist */,
 				1DE727F22B50228B0006FE74 /* HomeVC.swift */,
 				1DE727FB2B5026150006FE74 /* LoginVC.swift */,
+				1DE7280C2B5040E30006FE74 /* RegisterVC.swift */,
 			);
 			path = ChatApp;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				1DE727FC2B5026150006FE74 /* LoginVC.swift in Sources */,
 				1DE727E12B5022470006FE74 /* SceneDelegate.swift in Sources */,
 				1DE728082B5026DF0006FE74 /* ReusableStackview.swift in Sources */,
+				1DE7280D2B5040E30006FE74 /* RegisterVC.swift in Sources */,
 				1DE728052B5026DF0006FE74 /* ReusableAlert.swift in Sources */,
 				1DE7280A2B5026DF0006FE74 /* ReusableSystemImage.swift in Sources */,
 			);
