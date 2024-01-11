@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		1DE727DF2B5022470006FE74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE727DE2B5022470006FE74 /* AppDelegate.swift */; };
 		1DE727E12B5022470006FE74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE727E02B5022470006FE74 /* SceneDelegate.swift */; };
-		1DE727E32B5022470006FE74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE727E22B5022470006FE74 /* ViewController.swift */; };
-		1DE727E62B5022470006FE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE727E42B5022470006FE74 /* Main.storyboard */; };
 		1DE727E82B50224E0006FE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE727E72B50224E0006FE74 /* Assets.xcassets */; };
 		1DE727EB2B50224E0006FE74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE727E92B50224E0006FE74 /* LaunchScreen.storyboard */; };
+		1DE727F32B50228B0006FE74 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE727F22B50228B0006FE74 /* HomeVC.swift */; };
+		1DE727FC2B5026150006FE74 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE727FB2B5026150006FE74 /* LoginVC.swift */; };
+		1DE728052B5026DF0006FE74 /* ReusableAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE727FE2B5026DF0006FE74 /* ReusableAlert.swift */; };
+		1DE728062B5026DF0006FE74 /* ReusableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE727FF2B5026DF0006FE74 /* ReusableButton.swift */; };
+		1DE728072B5026DF0006FE74 /* ReusableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE728002B5026DF0006FE74 /* ReusableLabel.swift */; };
+		1DE728082B5026DF0006FE74 /* ReusableStackview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE728012B5026DF0006FE74 /* ReusableStackview.swift */; };
+		1DE728092B5026DF0006FE74 /* ReusableTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE728022B5026DF0006FE74 /* ReusableTextfield.swift */; };
+		1DE7280A2B5026DF0006FE74 /* ReusableSystemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE728032B5026DF0006FE74 /* ReusableSystemImage.swift */; };
+		1DE7280B2B5026DF0006FE74 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE728042B5026DF0006FE74 /* ReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1DE727DB2B5022470006FE74 /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE727DE2B5022470006FE74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DE727E02B5022470006FE74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1DE727E22B5022470006FE74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1DE727E52B5022470006FE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DE727E72B50224E0006FE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DE727EA2B50224E0006FE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE727EC2B50224E0006FE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DE727F22B50228B0006FE74 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		1DE727FB2B5026150006FE74 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1DE727FE2B5026DF0006FE74 /* ReusableAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableAlert.swift; sourceTree = "<group>"; };
+		1DE727FF2B5026DF0006FE74 /* ReusableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableButton.swift; sourceTree = "<group>"; };
+		1DE728002B5026DF0006FE74 /* ReusableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableLabel.swift; sourceTree = "<group>"; };
+		1DE728012B5026DF0006FE74 /* ReusableStackview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableStackview.swift; sourceTree = "<group>"; };
+		1DE728022B5026DF0006FE74 /* ReusableTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableTextfield.swift; sourceTree = "<group>"; };
+		1DE728032B5026DF0006FE74 /* ReusableSystemImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableSystemImage.swift; sourceTree = "<group>"; };
+		1DE728042B5026DF0006FE74 /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,38 @@
 		1DE727DD2B5022470006FE74 /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
-				1DE727DE2B5022470006FE74 /* AppDelegate.swift */,
-				1DE727E02B5022470006FE74 /* SceneDelegate.swift */,
-				1DE727E22B5022470006FE74 /* ViewController.swift */,
-				1DE727E42B5022470006FE74 /* Main.storyboard */,
-				1DE727E72B50224E0006FE74 /* Assets.xcassets */,
-				1DE727E92B50224E0006FE74 /* LaunchScreen.storyboard */,
+				1DE727FD2B5026DF0006FE74 /* Components */,
+				1DE727F42B5023370006FE74 /* Supporting */,
 				1DE727EC2B50224E0006FE74 /* Info.plist */,
+				1DE727F22B50228B0006FE74 /* HomeVC.swift */,
+				1DE727FB2B5026150006FE74 /* LoginVC.swift */,
 			);
 			path = ChatApp;
+			sourceTree = "<group>";
+		};
+		1DE727F42B5023370006FE74 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				1DE727DE2B5022470006FE74 /* AppDelegate.swift */,
+				1DE727E02B5022470006FE74 /* SceneDelegate.swift */,
+				1DE727E72B50224E0006FE74 /* Assets.xcassets */,
+				1DE727E92B50224E0006FE74 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		1DE727FD2B5026DF0006FE74 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1DE727FE2B5026DF0006FE74 /* ReusableAlert.swift */,
+				1DE727FF2B5026DF0006FE74 /* ReusableButton.swift */,
+				1DE728002B5026DF0006FE74 /* ReusableLabel.swift */,
+				1DE728012B5026DF0006FE74 /* ReusableStackview.swift */,
+				1DE728022B5026DF0006FE74 /* ReusableTextfield.swift */,
+				1DE728032B5026DF0006FE74 /* ReusableSystemImage.swift */,
+				1DE728042B5026DF0006FE74 /* ReusableView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +164,6 @@
 			files = (
 				1DE727EB2B50224E0006FE74 /* LaunchScreen.storyboard in Resources */,
 				1DE727E82B50224E0006FE74 /* Assets.xcassets in Resources */,
-				1DE727E62B5022470006FE74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +174,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DE727E32B5022470006FE74 /* ViewController.swift in Sources */,
+				1DE727F32B50228B0006FE74 /* HomeVC.swift in Sources */,
+				1DE728092B5026DF0006FE74 /* ReusableTextfield.swift in Sources */,
+				1DE728072B5026DF0006FE74 /* ReusableLabel.swift in Sources */,
 				1DE727DF2B5022470006FE74 /* AppDelegate.swift in Sources */,
+				1DE7280B2B5026DF0006FE74 /* ReusableView.swift in Sources */,
+				1DE728062B5026DF0006FE74 /* ReusableButton.swift in Sources */,
+				1DE727FC2B5026150006FE74 /* LoginVC.swift in Sources */,
 				1DE727E12B5022470006FE74 /* SceneDelegate.swift in Sources */,
+				1DE728082B5026DF0006FE74 /* ReusableStackview.swift in Sources */,
+				1DE728052B5026DF0006FE74 /* ReusableAlert.swift in Sources */,
+				1DE7280A2B5026DF0006FE74 /* ReusableSystemImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1DE727E42B5022470006FE74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1DE727E52B5022470006FE74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1DE727E92B50224E0006FE74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +327,6 @@
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +353,6 @@
 				INFOPLIST_FILE = ChatApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
